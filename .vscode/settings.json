@@ -1,0 +1,7 @@
+{
+  "chat.agent.enabled": true,
+  "chat.agent.maxRequests": 15,
+  "github.copilot.chat.agent.runTasks": true,
+  "github.copilot.chat.agent.autoFix": true,
+  "chat.tools.autoApprove": false
+}
