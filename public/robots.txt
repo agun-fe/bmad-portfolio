@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://agunawan.netlify.app/sitemap.xml

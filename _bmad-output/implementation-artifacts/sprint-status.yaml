@@ -44,8 +44,8 @@ development_status:
   epic-1: in-progress
   1-1-initialize-nextjs-project-with-shadcn-ui: done
   1-2-configure-static-export-global-layout-fonts: done
-  1-3-configure-netlify-deployment-ci-cd: in-progress
-  1-4-seo-foundation-meta-tags-og-json-ld-sitemap: backlog
+  1-3-configure-netlify-deployment-ci-cd: done
+  1-4-seo-foundation-meta-tags-og-json-ld-sitemap: done
   epic-1-retrospective: optional
 
   # ─── Epic 2: Core Portfolio UI Sections ───

@@ -20,9 +20,76 @@ const jetBrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+
 export const metadata: Metadata = {
-  title: "Agun Gunawan — Portfolio",
-  description: "Personal portfolio of Agun Gunawan, Frontend Engineer.",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "Agun Gunawan — Senior React & Webflow Developer",
+    template: "%s | Agun Gunawan",
+  },
+  description:
+    "Senior Frontend Developer with 8+ years of experience in React, Next.js, and Webflow. Crafting fast, accessible web experiences. Open to opportunities.",
+  keywords: [
+    "senior react developer",
+    "webflow developer",
+    "next.js developer",
+    "frontend developer",
+    "agun gunawan",
+    "typescript",
+  ],
+  authors: [{ name: "Agun Gunawan" }],
+  openGraph: {
+    type: "website",
+    url: SITE_URL,
+    title: "Agun Gunawan — Senior React & Webflow Developer",
+    description:
+      "Senior Frontend Developer with 8+ years of experience in React, Next.js, and Webflow. Crafting fast, accessible web experiences.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Agun Gunawan — Senior React & Webflow Developer",
+      },
+    ],
+    siteName: "Agun Gunawan Portfolio",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Agun Gunawan — Senior React & Webflow Developer",
+    description:
+      "Senior Frontend Developer with 8+ years of experience in React, Next.js, and Webflow.",
+    images: ["/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: SITE_URL,
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Agun Gunawan",
+  jobTitle: "Senior Frontend Developer",
+  url: SITE_URL,
+  sameAs: [
+    "https://linkedin.com/in/agun-awan", // ⚠️ Replace with actual LinkedIn URL
+  ],
+  knowsAbout: [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "JavaScript",
+    "Webflow",
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+  ],
 };
 
 export default function RootLayout({
@@ -32,6 +99,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body
         className={`${inter.variable} ${plusJakartaSans.variable} ${jetBrainsMono.variable} antialiased`}
       >
