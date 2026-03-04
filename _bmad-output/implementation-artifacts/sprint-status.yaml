@@ -49,8 +49,8 @@ development_status:
   epic-1-retrospective: optional
 
   # ─── Epic 2: Core Portfolio UI Sections ───
-  epic-2: backlog
-  2-1-hero-section-with-navigation: backlog
+  epic-2: in-progress
+  2-1-hero-section-with-navigation: done
   2-2-about-section: backlog
   2-3-portfolio-section-with-project-cards: backlog
   2-4-cv-download-integration: backlog
