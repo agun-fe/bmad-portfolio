@@ -1,5 +1,6 @@
 import { Sidebar } from "@/components/shared/Sidebar";
 import { HeroSection } from "@/components/sections/HeroSection";
+import { AboutSection } from "@/components/sections/AboutSection";
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
           className="flex-1 lg:ml-60 min-w-0 pt-16 lg:pt-0"
         >
           <HeroSection />
-          <section id="about" className="min-h-screen py-20 px-6 lg:px-12" />
+          <AboutSection />
           <section
             id="portfolio"
             className="min-h-screen py-20 px-6 lg:px-12"
