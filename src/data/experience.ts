@@ -21,9 +21,9 @@ export const experiences: ExperienceItem[] = [
     responsibilities: [
       "Led the frontend architecture and development of Cybermatika, a core internal enterprise product aimed at optimising company operations and internal workflows.",
       "Engineered pixel-perfect, highly responsive web platforms for high-end international real estate clients including Kay & Burton, Magain, and 1st City, ensuring seamless cross-browser compatibility.",
-      "Overhauled and optimised the frontend execution of PT Software Seni Indonesia's official ID and AU corporate websites, significantly improving Core Web Vitals, page load speeds, and SEO performance.",
+      "Overhauled the frontend execution of Softwareseni's official ID and AU corporate websites, focusing on Core Web Vitals optimization, faster load times, and SEO-friendly markup.",
       "Utilised Tailwind CSS, SCSS, and modern layout techniques to build reusable UI components and streamline styling maintenance.",
-      "Actively leveraged AI-assisted development tools (vibe coding) to accelerate code production, optimise debugging, and maintain high engineering efficiency.",
+      "Actively leveraged AI-assisted development tools (Github Copilot and Claude) to accelerate code production, optimize debugging, and maintain high engineering efficiency.",
       "Collaborated closely with Project Managers, UI/UX designers, and cross-functional teams to translate complex wireframes into high-performance web applications.",
     ],
   },

@@ -171,7 +171,7 @@ export function Sidebar() {
 
         {/* CV download pinned to bottom */}
         <div className="border-t border-slate-800 p-4">
-          <CVDownloadButton className="hidden w-full justify-center" />
+          <CVDownloadButton className="w-full justify-center" />
         </div>
       </aside>
 

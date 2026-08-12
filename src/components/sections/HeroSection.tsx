@@ -88,10 +88,7 @@ export function HeroSection() {
 
           {/* Tagline */}
           <p className="hero-item mb-10 max-w-xl text-lg leading-relaxed text-muted-foreground">
-            8+ years shipping fast, accessible web products for international
-            clients — from pixel-perfect React & Next.js apps to high-impact
-            Webflow and WordPress builds. I bridge design and engineering to
-            deliver production-ready results.
+            8+ years shipping fast, accessible web products for international clients — from pixel-perfect Webflow and WordPress builds to reusable component systems. I bridge design and engineering to deliver production-ready results, and I'm actively expanding into React and Next.js to deepen my component-based development skills.
           </p>
 
           {/* Stats row */}
@@ -110,7 +107,7 @@ export function HeroSection() {
 
           {/* CTA buttons */}
           <div className="hero-item flex flex-wrap gap-4">
-            <CVDownloadButton className="hidden" />
+            <CVDownloadButton  />
             <a
               href="#contact"
               className="inline-flex items-center justify-center rounded-lg border border-slate-700 px-6 py-3 font-semibold text-muted-foreground hover:border-slate-500 hover:text-foreground focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-2 focus-visible:ring-offset-background motion-safe:transition-colors motion-safe:duration-150"

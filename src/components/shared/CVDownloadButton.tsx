@@ -10,7 +10,7 @@ interface CVDownloadButtonProps {
 export function CVDownloadButton({ className }: CVDownloadButtonProps) {
   return (
     <a
-      href="/cv.pdf"
+      href="/agun_gunawan_cv.pdf"
       download
       onClick={() => trackEvent("cv_download", { method: "button_click" })}
       className={cn(
